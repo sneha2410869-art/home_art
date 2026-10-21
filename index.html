@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ARTIVA creates custom wall murals, artistic accent walls and personalized interior wall art.">
+  <title>ARTIVA | Custom Wall Art & Murals</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-palette"></i></span>
+        ARTIVA<span class="logo-dot">.</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Gallery</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact" class="nav-cta">Book a Design</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow"><i class="fa-solid fa-sparkles"></i> ART THAT MAKES YOU FEEL AT HOME</p>
+
+        <h1>Turn Your Walls Into <em>Works of Art.</em></h1>
+
+        <p class="hero-description">
+          Personalized wall murals and creative designs that transform
+          ordinary rooms into beautiful, meaningful spaces.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">
+            Explore Our Services <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#portfolio" class="btn btn-outline">
+            View Gallery
+          </a>
+        </div>
+
+        <div class="hero-trust">
+          <span><i class="fa-solid fa-check-circle"></i> Custom designs</span>
+          <span><i class="fa-solid fa-check-circle"></i> Personal touch</span>
+          <span><i class="fa-solid fa-check-circle"></i> Homes & businesses</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85"
+            alt="Stylish interior with coordinated wall art and decor"
+            loading="lazy"
+          >
+          <div class="image-note">
+            <i class="fa-solid fa-heart"></i>
+            <span>Designed around you</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow">ABOUT ARTIVA</p>
+          <h2>Beautiful Walls.<br><em>Personal Stories.</em></h2>
+
+          <p>
+            At ARTIVA, we believe that walls are more than empty spaces.
+            They are an opportunity to express your personality, creativity
+            and style.
+          </p>
+
+          <p>
+            From playful children's room murals to elegant living room
+            accent walls and creative commercial spaces, we help bring
+            your ideas to life.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <i class="fa-solid fa-pencil-ruler"></i>
+              <div>
+                <h3>Made for Your Space</h3>
+                <p>Design ideas tailored to your room and preferences.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <i class="fa-solid fa-paintbrush"></i>
+              <div>
+                <h3>Creative Designs</h3>
+                <p>Artistic concepts for different styles and spaces.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <i class="fa-solid fa-comments"></i>
+              <div>
+                <h3>Personal Consultation</h3>
+                <p>Discuss your idea before confirming your project.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="text-link">
+            Tell us your idea <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE CREATE</p>
+          <h2>Art for Every <em>Kind of Space.</em></h2>
+          <p>
+            Choose the wall-art service that suits your space.
+            Select a service to add it to your booking request.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=850&q=85"
+                alt="Interior inspiration for a personalized home wall-art design"
+                loading="lazy"
+              >
+              <span class="service-icon"><i class="fa-solid fa-house"></i></span>
+            </div>
+
+            <div class="service-body">
+              <p class="service-category">FOR YOUR HOME</p>
+              <h3>Living Room Accent Walls</h3>
+              <p>
+                Create a beautiful focal point with artistic wall designs
+                that complement your furniture and interior style.
+              </p>
+              <button type="button" class="btn btn-card choose-service" data-service="accent-wall">
+                Choose This Service <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=850&q=85"
+                alt="Warm and colorful home interior inspiration"
+                loading="lazy"
+              >
+              <span class="service-icon"><i class="fa-solid fa-star"></i></span>
+            </div>
+
+            <div class="service-body">
+              <p class="service-category">FOR LITTLE DREAMERS</p>
+              <h3>Children's Room Murals</h3>
+              <p>
+                Add a playful touch with imaginative themes, nature-inspired
+                designs and colorful ideas for children's spaces.
+              </p>
+              <button type="button" class="btn btn-card choose-service" data-service="kids-room">
+                Choose This Service <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=850&q=85"
+                alt="Creative commercial interior inspiration"
+                loading="lazy"
+              >
+              <span class="service-icon"><i class="fa-solid fa-store"></i></span>
+            </div>
+
+            <div class="service-body">
+              <p class="service-category">FOR YOUR BUSINESS</p>
+              <h3>Commercial Wall Murals</h3>
+              <p>
+                Give cafes, offices, studios and shops a distinctive look
+                with creative wall-art concepts.
+              </p>
+              <button type="button" class="btn btn-card choose-service" data-service="commercial">
+                Choose This Service <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=850&q=85"
+                alt="Framed art displayed as interior decoration"
+                loading="lazy"
+              >
+              <span class="service-icon"><i class="fa-solid fa-image"></i></span>
+            </div>
+
+            <div class="service-body">
+              <p class="service-category">YOUR PERSONAL STYLE</p>
+              <h3>Custom Wall Art</h3>
+              <p>
+                Share your inspiration and create a personalized art concept
+                for your home, workspace or special corner.
+              </p>
+              <button type="button" class="btn btn-card choose-service" data-service="custom-art">
+                Choose This Service <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">DESIGN INSPIRATION</p>
+          <h2>Explore Our <em>Creative Gallery.</em></h2>
+          <p>
+            Click any image to view a larger preview. These are inspiration
+            images; actual project designs can be customized.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <button
+            type="button"
+            class="gallery-item gallery-large"
+            data-gallery-image="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=90"
+            data-gallery-title="Elegant Home Interior"
+            aria-label="View Elegant Home Interior image"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=85"
+              alt="Elegant home interior inspiration"
+              loading="lazy"
+            >
+            <span class="gallery-overlay">
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i> View Design</span>
+              <strong>Elegant Home</strong>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            class="gallery-item"
+            data-gallery-image="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=90"
+            data-gallery-title="Modern Living Room"
+            aria-label="View Modern Living Room image"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85"
+              alt="Modern living room design inspiration"
+              loading="lazy"
+            >
+            <span class="gallery-overlay">
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i> View Design</span>
+              <strong>Modern Living</strong>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            class="gallery-item"
+            data-gallery-image="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1400&q=90"
+            data-gallery-title="Creative Cafe Interior"
+            aria-label="View Creative Cafe Interior image"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=85"
+              alt="Cafe interior inspiration"
+              loading="lazy"
+            >
+            <span class="gallery-overlay">
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i> View Design</span>
+              <strong>Creative Cafe</strong>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            class="gallery-item"
+            data-gallery-image="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1400&q=90"
+            data-gallery-title="Artistic Wall Decor"
+            aria-label="View Artistic Wall Decor image"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=900&q=85"
+              alt="Art and wall decor inspiration"
+              loading="lazy"
+            >
+            <span class="gallery-overlay">
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i> View Design</span>
+              <strong>Artistic Decor</strong>
+            </span>
+          </button>
+        </div>
+
+        <div class="center-button">
+          <a href="#contact" class="btn btn-primary">
+            Create Your Own Design <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image preview modal -->
+    <div class="gallery-modal" id="galleryModal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="galleryModalTitle">
+        <button type="button" class="modal-close" id="galleryClose" aria-label="Close image preview">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <img id="galleryModalImage" src="" alt="">
+        <div class="modal-caption">
+          <h3 id="galleryModalTitle">Design Inspiration</h3>
+          <a href="#contact" class="btn btn-primary" id="galleryBookButton">
+            Book a Similar Design
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing section -->
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SIMPLE STARTING OPTIONS</p>
+          <h2>Find Your <em>Starting Plan.</em></h2>
+          <p>
+            These are illustrative starting prices for the website demo.
+            Final quotes depend on the design, wall size and materials.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <span class="price-icon"><i class="fa-solid fa-palette"></i></span>
+            <h3>Custom Art Concept</h3>
+            <p class="price-description">For planning your wall-art idea.</p>
+            <p class="price"><span>₹</span> 1,500 <small>starting</small></p>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Initial design discussion</li>
+              <li><i class="fa-solid fa-check"></i> Style and color planning</li>
+              <li><i class="fa-solid fa-check"></i> Personalized concept</li>
+            </ul>
+            <button type="button" class="btn btn-card choose-service" data-service="custom-art">
+              Choose Plan
+            </button>
+          </article>
+
+          <article class="price-card featured-price">
+            <span class="popular-label">POPULAR</span>
+            <span class="price-icon"><i class="fa-solid fa-paintbrush"></i></span>
+            <h3>Accent Wall</h3>
+            <p class="price-description">For a standout wall in your home.</p>
+            <p class="price"><span>₹</span> 5,000 <small>starting</small></p>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Custom wall-art concept</li>
+              <li><i class="fa-solid fa-check"></i> Color and style selection</li>
+              <li><i class="fa-solid fa-check"></i> Project consultation</li>
+            </ul>
+            <button type="button" class="btn btn-primary choose-service" data-service="accent-wall">
+              Choose Plan
+            </button>
+          </article>
+
+          <article class="price-card">
+            <span class="price-icon"><i class="fa-solid fa-building"></i></span>
+            <h3>Business Mural</h3>
+            <p class="price-description">For shops, offices and cafes.</p>
+            <p class="price"><span>₹</span> 10,000 <small>starting</small></p>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Business-focused concept</li>
+              <li><i class="fa-solid fa-check"></i> Space and theme discussion</li>
+              <li><i class="fa-solid fa-check"></i> Custom quote</li>
+            </ul>
+            <button type="button" class="btn btn-card choose-service" data-service="commercial">
+              Choose Plan
+            </button>
+          </article>
+        </div>
+
+        <p class="pricing-note">
+          <i class="fa-solid fa-circle-info"></i>
+          Prices are sample values for demonstration, not a confirmed quotation.
+        </p>
+      </div>
+    </section>
+
+    <!-- Booking / contact section -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow">LET'S MAKE SOMETHING BEAUTIFUL</p>
+          <h2>Tell Us About <em>Your Wall.</em></h2>
+          <p>
+            Have an idea in mind? Send us your details and preferred design.
+            Our team can review your request and discuss the next steps.
+          </p>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon"><i class="fa-solid fa-palette"></i></span>
+            <div>
+              <h3>Personalized Designs</h3>
+              <p>Tell us your preferred theme, colors and space.</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon"><i class="fa-solid fa-calendar-check"></i></span>
+            <div>
+              <h3>Booking Requests</h3>
+              <p>Choose a suitable date for an initial discussion.</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></span>
+            <div>
+              <h3>Email</h3>
+              <p>hello@yourdomain.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-card">
+          <h3>Book Your Design Consultation</h3>
+          <p class="form-intro">Fill in the details below to submit your request.</p>
+
+          <form id="bookingForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required maxlength="100">
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number" required maxlength="20">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required maxlength="150">
+            </div>
+
+            <div class="form-group">
+              <label for="service">Choose a Service *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="accent-wall">Living Room Accent Walls</option>
+                <option value="kids-room">Children's Room Murals</option>
+                <option value="commercial">Commercial Wall Murals</option>
+                <option value="custom-art">Custom Wall Art</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date">
+              </div>
+
+              <div class="form-group">
+                <label for="budget">Estimated Budget</label>
+                <select id="budget" name="budget">
+                  <option value="">Select budget</option>
+                  <option value="Under ₹5,000">Under ₹5,000</option>
+                  <option value="₹5,000–₹10,000">₹5,000–₹10,000</option>
+                  <option value="₹10,000–₹25,000">₹10,000–₹25,000</option>
+                  <option value="Above ₹25,000">Above ₹25,000</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tell Us About Your Idea</label>
+              <textarea id="message" name="message" rows="4" maxlength="2000" placeholder="Describe your room, wall size, theme or preferred colors..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-button" id="submitButton">
+              <span>Submit Booking Request</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+            <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+            <p class="privacy-note">
+              Submitting this form sends a booking request; it does not confirm an appointment.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final call to action -->
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <div>
+          <p class="eyebrow">YOUR WALL, YOUR STORY</p>
+          <h2>Ready to transform your space?</h2>
+        </div>
+        <a href="#contact" class="btn btn-light">
+          Start Your Project <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-icon"><i class="fa-solid fa-palette"></i></span>
+          ARTIVA<span class="logo-dot">.</span>
+        </a>
+        <p>Creative wall art for spaces that tell your story.</p>
+
+        <div class="social-links" aria-label="Social media links">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="mailto:hello@yourdomain.com" aria-label="Email ARTIVA">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#portfolio">Gallery</a>
+        <a href="#pricing">Pricing</a>
+      </div>
+
+      <div>
+        <h3>Our Services</h3>
+        <a href="#services">Accent Walls</a>
+        <a href="#services">Children's Murals</a>
+        <a href="#services">Commercial Murals</a>
+        <a href="#services">Custom Wall Art</a>
+      </div>
+
+      <div>
+        <h3>Get in Touch</h3>
+        <p><i class="fa-solid fa-envelope"></i> hello@yourdomain.com</p>
+        <a href="#contact" class="footer-book-link">Request a Consultation <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="currentYear"></span> ARTIVA. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
